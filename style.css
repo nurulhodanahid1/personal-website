@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif ; 
+}
+h1{
+    font-size:40px ;
+}
+p{
+    text-align: justify;
+}
+.name-highlight{
+    color: rgb(228, 18, 98);
+}.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.middle.banner{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+
+}
+.footer-images{
+    background-image: url(images/footer-bg.png); 
+}
+.middle-head{
+    text-align: center;
+}
+section{
+    height:500px;
+    padding-bottom: 300px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( #ff7a7a, #ff4747);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white
+}
+.blog img{
+    width: 30%;
+    margin-left: 2.5% ;
+    float: left;
+}
+#last-color{
+    text-align: center;
+    margin: 40px 90px 0 90px;
+}
+footer{
+    margin-top: -90px;
+}
+#font-bottom{
+    margin-top: -15px;
+}
+#font-area{
+    margin: 0 130px 0 130px;
+}
+#left-side{
+    margin-left: 20px;
+}
+#right-side{
+    margin-left: 50px;
+}
+#message{
+    margin-top: 30px;
+}
+#email{
+    margin-bottom: 30px;
+}
