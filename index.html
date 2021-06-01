@@ -4,67 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/60dbca372d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <section class="top-banner">
-        <div class="half-width">
-            <h1>Hello I'm</h1>
-            <h1 class="name-highlight">Jack Smith</h1>
-            <p>
-            You might saw me jumping,climbing building and stopping trains.But nobody pays me a dime for that work.</p>
-            <a class="link-button" target="_blank" href="https://linkedin.com/company/programminghero/">HIRE ME</a>
+    <!------- Menu Area Start ------->
+    <nav class="main-menu">
+        <div class="container">
+            <ul>
+                <li><a href="#introduce">about</a></li>
+                <li><a href="#about">work</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+             </ul>
         </div>
-        <div id="right-side"class="half-width">
-            <img src="images/peter.png" alt="">
-           </div>
-            </section>
-        
-        
-    <section class="middle-banner">
-        <div id="left-side" class="half-width">
-            <img src="images/peter_dream.png" alt="">
+    </nav>
+    <!------- Menu Area End ------->
+
+    <!------- Introduce Area Start ------->
+    <section class="introduce-area" id="introduce">
+        <div class="container">
+            <div class="half-width">
+                <h1>hello, i'm</h1>
+                <h1><span class="highlight">leonardo dicaprio</span></h1>
+                <p>A full stack allaround designer that placerat<br>in massa consectetur</p>
+                <a class="link-button" href="https://www.facebook.com/nurulhodanahid1">hire me</a>
+            </div>
+            <div class="half-width">
+                <img src="images/leonardo1.png" alt="leonardo">
+            </div>
         </div>
-        <div class="half-width">
-                    <h1>Biography</h1>
-                    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, quasi dicta. Fugiat sed repudiandae dolorem culpa, aut voluptatem delectus. Perferendis, ab voluptate temporibus vitae nihil consequuntur magni illum quod ipsa. </p> 
-        <a class="link-button" target="_blank" href="https://www.facebook.com/profile.php?id=100009324583807">Download CV</a>
-         </div>
-        </section>
-        <section class="latest-work">
-            >
-            <h1 class="middle-head">My Latest Work</h1>
+    </section>
+    <!------- Introduce Area End ------->
 
-            <div class="blog">
-            <img src="images/latest-work/work-1.png" alt=""> </div>
-            <div class="blog">
-                <img src="images/latest-work/work-2.jpg" alt=""> </div>
-           <div class="blog">
-               <img src="images/latest-work/work-3.jpg" alt="">
+    <!------- about Area Start ------->
+    <section class="about-area" id="about">
+        <div class="container">
+            <div class="half-width">
+                <img src="images/leonardo2.png" alt="leonardo">
             </div>
-
-        </section>
-        <section class="footer-images">
-            <div>
-            <h1 class="middle-head"> What Client are say </h1> </div>
-            <div>
-            <h3 class="middle-head">Bruce Muccy</h3>
-                <h5 id="font-bottom" class="middle-head">Founder & CEO Alies </h5> </div>
-               <div> <p id="font-area" class="middle-head">"Learn ipsum is simply dummy text of the printing and typesetting industry.lorem ipsam Learn ipsum is simply dummy text of the printing and typesetting industry.lorem ipsamLearn ipsum is simply dummy text of the printing and typesetting industry.lorem ipsam"</p> </div>
-                                               
-              <div id="last-color" class="link-button">
-                <p id="message" style="text-align: center;"> Leave me a message in the  </p>
-                <h3 id="email" style="text-align: center;">nurulhodanahid1@gmail.com</h3>
-                <h4>hello world!!!!!</h4>
+            <div class="half-width">
+                <h2>about</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a class="link-button" href="https://www.facebook.com/nurulhodanahid1"><i class="fas fa-download"></i> download cV</a>
             </div>
+        </div>
+    </section>
+    <!------- about Area End ------->
 
-        </section>
-        <footer>
-            <p class="middle-head">
-                2020 © Nurul Hoda Nahid, Gazipur
-            </p>
-        </footer>
-        </body>
-        </html>
+    <!------- portfolio Area start ------->
+    <section class="portfolio-area" id="portfolio">
+        <div class="container">
+            <h2><span class="highlight">latest</span> working project</h2>
+            <div class="col1-md3">
+                <img src="images/latest-work/fitness.png" alt="fitness">
+                <h3><a href="#">Power-x-gym (gym website)</a></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+            <div class="col1-md3">
+                <img src="images/latest-work/travel.png" alt="travel">
+                <h3><a href="#">creative agency</a></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+            <div class="col1-md3">
+                <img src="images/latest-work/entertainment.png" alt="music">
+                <h3><a href="#">hard rock music</a></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+        </div>
+    </section>
+    <!------- portfolio Area End ------->
+
+    <!------- contact Area start ------->
+    <section class="contact-area" id="contact">
+        <div class="chat-area">
+            <div class="half-width">
+                <h2>work inquiry</h2>
+            </div>
+            <div class="half-width">
+                <a href="#" id="chat-button" class="link-button">let's chat</a>
+            </div>
+        </div>
+        <h3 class="middle-text">stay connected</h3>
+        <h2 class="middle-text">leonardodicaprio@gmail.com</h2>
+        <div class="sub-menu">
+            <ul>
+                <li><a href="https://www.behance.com/nurulhodanahid1"><img src="images/icon/behance.png" alt=""></a></li>
+                <li><a href="https://www.dribble.com/nurulhodanahid1"><img src="images/icon/dribble.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/nurulhodanahid1"><img src="images/icon/instagram.png" alt=""></a></li>
+             </ul>
+        </div>
+    </section>
+    <!------- contact Area End ------->
+</body>
+</html>

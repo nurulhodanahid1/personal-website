@@ -1,81 +1,207 @@
 body{
     margin: 0px;
-    font-family: 'Poppins', sans-serif ; 
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
 }
 h1{
-    font-size:40px ;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #363958;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 37px;
+    color: #363958;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #363958;
+    font-weight: 700;
 }
 p{
-    text-align: justify;
+    color: #3E3E3E;
+    font-size: 15px;
 }
-.name-highlight{
-    color: rgb(228, 18, 98);
-}.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 8%;
-    padding-left: 2%;
-}
-.half-width img{
-    width: 100%;
-}
-.top-banner{
-    background-image: url("images/header-bg.png");
-    background-repeat: no-repeat;
-    margin-top: 100px;
-}
-.middle.banner{
-    background-image: url("images/biography-bg.png");
-    background-repeat: no-repeat;
-}
-.latest-work{
-    background-image: url(images/latest-work-bg.png);
-
-}
-.footer-images{
-    background-image: url(images/footer-bg.png); 
-}
-.middle-head{
-    text-align: center;
-}
-section{
-    height:500px;
-    padding-bottom: 300px;
+.highlight{
+    color: #FF8367;
 }
 .link-button{
     text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
     background-image: linear-gradient( #ff7a7a, #ff4747);
-    padding: 5px 10px;
+    padding: 15px 40px;
+    margin-top: 20px;
     border-radius: 5px;
-    color:white
+    color:#ffffff;
+    display: inline-block;
 }
-.blog img{
-    width: 30%;
-    margin-left: 2.5% ;
+.link-button:hover{
+    background-image: linear-gradient( #363958, #373a5f);
+}
+
+/******* Menu area start *******/
+.main-menu{
+    margin-bottom: 45px;
+}
+.main-menu:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.main-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.main-menu ul li{
     float: left;
+    margin-right: 0;
 }
-#last-color{
+.main-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 20px 15px;
+    display: block;
+    color: #3B3B3B;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main-menu ul li a:hover{
+    color: #ff7a7a;
+}
+/******* Menu area end *******/
+
+/******* Introduce area start *******/
+.introduce-area{
+    overflow: hidden;
+}
+.half-width{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    height: 700px;
+}
+.half-width img{
+    width: 90%;
+}
+/******* Introduce area end *******/
+
+/******* About area start *******/
+.about-area{
+    overflow: hidden;
+}
+a i{
+    font-size: 22px;
+}
+/******* About area end *******/
+
+/******* portfolio area start *******/
+.portfolio-area{
+    background-color: #f1eeee;
+    overflow: hidden;
+    margin-bottom: 95px;
+    padding-bottom: 30px;
+}
+.portfolio-area h2{
     text-align: center;
-    margin: 40px 90px 0 90px;
 }
-footer{
-    margin-top: -90px;
+.portfolio-area h3 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #363958;
+    font-weight: 700;
 }
-#font-bottom{
-    margin-top: -15px;
+.portfolio-area h3 a:hover{
+    color: #ff7a7a;
 }
-#font-area{
-    margin: 0 130px 0 130px;
-}
-#left-side{
+.col1-md3{
+    width: 30%;
     margin-left: 20px;
+    float: left;
+    padding: 0 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px #a1a1a1;
 }
-#right-side{
-    margin-left: 50px;
+.col1-md3:nth-last-child(){
+    margin-right: 0;
 }
-#message{
-    margin-top: 30px;
+.col1-md3:nth-child(1){
+    margin-left: 0;
 }
-#email{
-    margin-bottom: 30px;
+.col1-md3 img{
+    width: 100%;
 }
+/******* portfolio area end *******/
+
+/******* contact area start *******/
+.chat-area{
+    width: 60%;
+    margin: auto;
+    padding: 70px;
+    overflow: hidden;
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    height: 100px;
+    margin-bottom: 65px;
+}
+.chat-area h2{
+    color: #ffffff;
+}
+#chat-button{
+    float: right;
+}
+#chat-button:hover{
+    background-image: linear-gradient( #f4f4f5, #f1f1f3);
+    color: #363958;;
+}
+.contact-area .middle-text{
+    text-align: center;
+}
+/**sub menu**/
+.sub-menu{
+    margin-bottom: 45px;
+    width: 17%;
+    margin: auto;
+}
+.sub-menu:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.sub-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sub-menu ul li{
+    float: left;
+    margin-right: 0;
+}
+.sub-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 20px 15px;
+    display: block;
+    color: #3B3B3B;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sub-menu ul li a img{
+    height: 45px;
+    width: 45px;
+}
+.sub-menu ul li a:hover{
+    color: #ff7a7a;
+}
+/******* contact area end *******/
